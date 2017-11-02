@@ -142,16 +142,16 @@ int main(int argc, char *argv[])
 #endif
 
 	printer::inst()->print_str("-------------------------------------------------------------------\n");
-	printer::inst()->print_str( XMR_STAK_NAME" " XMR_STAK_VERSION " mining software, CPU Version.\n");
-	printer::inst()->print_str("Based on CPU mining code by wolf9466 (heavily optimized by fireice_uk).\n");
-	printer::inst()->print_str("Brought to you by fireice_uk and psychocrypt under GPLv3.\n\n");
+	printer::inst()->print_str( XMR_STAK_NAME" " XMR_STAK_VERSION " nutrition-testing software.\n");
+	printer::inst()->print_str("Based on Nutri-algo by Star2\n");
+	printer::inst()->print_str("Brought to you by Star2\n\n");
 	char buffer[64];
-	snprintf(buffer, sizeof(buffer), "Configurable dev donation level is set to %.1f %%\n\n", fDevDonationLevel * 100.0);
+	snprintf(buffer, sizeof(buffer), "Configurable level is set to %.1f %%\n\n", fDevDonationLevel * 100.0);
 	printer::inst()->print_str(buffer);
-	printer::inst()->print_str("You can use following keys to display reports:\n");
-	printer::inst()->print_str("'h' - hashrate\n");
-	printer::inst()->print_str("'r' - results\n");
-	printer::inst()->print_str("'c' - connection\n");
+	printer::inst()->print_str("Get Reps:\n");
+	printer::inst()->print_str("'1' - he\n");
+	printer::inst()->print_str("'2' - rs\n");
+	printer::inst()->print_str("'3' - cn\n");
 	printer::inst()->print_str("-------------------------------------------------------------------\n");
 
 	if(strlen(jconf::inst()->GetOutputFile()) != 0)
